@@ -1,14 +1,18 @@
-#GMC{
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #244277;
+}
+#GMC{
   font-size: 48px;
   color: rgb(167, 199, 248);
 }
 img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 15px;
-  width: 95%;
-}
-body{
-  background: #244272;
+  width: 100%;
+  opacity: .6;
 }
