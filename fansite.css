@@ -1,18 +1,52 @@
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #244277;
-}
-#GMC{
+
+#GMC {
   font-size: 48px;
-  color: rgb(167, 199, 248);
+  color: #b8cdd9;
 }
-img {
+#information {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 95%;
+  margin: auto;
   border-radius: 15px;
-  width: 100%;
-  opacity: .6;
+  background-color: rgba(0, 0, 0, .4)
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  padding: 10px;
+  width: 95%;
+}
+p {
+  color: white;
+  opacity: 1;
+  font-size: 1em;
+}
+.pLeft {
+  padding-right: 10px;
+}
+.pRight {
+  padding-left: 10px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+#Front56 {
+  height: 160px;
+  width: 200px;
+}
+#Rear56 {
+  height: 160px;
+  width: 200px;
+}
+#background {
+  background-image: url("./56America.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
