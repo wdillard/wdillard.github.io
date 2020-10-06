@@ -10,7 +10,7 @@
   width: 95%;
   margin: auto;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, .4)
+  background-color: rgba(0, 0, 0, .5)
 }
 .text {
   display: flex;
@@ -23,7 +23,7 @@
 p {
   color: white;
   opacity: 1;
-  font-size: 1em;
+  font-size: 24px;
 }
 .pLeft {
   padding-right: 10px;
